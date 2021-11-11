@@ -14,3 +14,7 @@ Lets create a graph of computer objects:
 -Add Breadth First Search functionality to the GUI
   
   - Show which computer is closer by IP address
+
+
+
+![Computer Objects](https://user-images.githubusercontent.com/66815083/141354095-9bbb6c6b-ff12-402f-bcee-48b0bf7ec13a.png)
