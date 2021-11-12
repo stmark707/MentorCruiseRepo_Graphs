@@ -1,0 +1,10 @@
+.button{
+   -fx-background-color: #ffa500;
+   -fx-text-fill: #000000;
+
+}
+
+.button:hover{
+    -fx-text-fill: black;
+    -fx-effect: innershadow(three-pass-box,gold,100, 0.0, 10, 10);
+}

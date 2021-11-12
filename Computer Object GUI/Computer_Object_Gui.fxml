@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="804.0" prefWidth="1041.0" style="-fx-background-color: #6495ED;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="GAINSBORO" height="712.0" layoutX="46.0" layoutY="54.0" stroke="TRANSPARENT" strokeType="INSIDE" width="451.0">
+         <effect>
+            <DropShadow spread="0.44">
+               <color>
+                  <Color red="0.19883041083812714" green="0.21125730872154236" blue="0.22368420660495758" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="AZURE" height="503.0" layoutX="527.0" layoutY="54.0" stroke="TRANSPARENT" strokeType="INSIDE" width="473.0">
+         <effect>
+            <DropShadow spread="0.44">
+               <color>
+                  <Color red="0.16740000247955322" green="0.1688503623008728" blue="0.18000000715255737" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="198.0" layoutX="539.0" layoutY="568.0" stroke="TRANSPARENT" strokeType="INSIDE" width="451.0">
+         <effect>
+            <DropShadow spread="0.44">
+               <color>
+                  <Color red="0.06432748585939407" green="0.08206627517938614" blue="0.10526315867900848" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="CORNFLOWERBLUE" height="343.0" layoutX="73.0" layoutY="129.0" stroke="#00000003" strokeType="INSIDE" width="397.0">
+         <effect>
+            <InnerShadow choke="0.48" />
+         </effect>
+      </Rectangle>
+      <ImageView fitHeight="380.0" fitWidth="374.0" layoutX="85.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons8-computer-512.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="137.0" layoutY="572.0" prefHeight="90.0" prefWidth="288.0" text="Computer" textAlignment="RIGHT">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="58.0" />
+         </font>
+      </Label>
+      <Label layoutX="163.0" layoutY="512.0" prefHeight="90.0" prefWidth="217.0" text="Graphing" textAlignment="RIGHT">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="185.0" layoutY="640.0" prefHeight="90.0" prefWidth="174.0" text="Objects" textAlignment="RIGHT">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="48.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="90.0" fitWidth="101.0" layoutX="67.0" layoutY="503.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons8-move-node-down-240.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="90.0" fitWidth="101.0" layoutX="359.0" layoutY="640.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons8-move-node-up-240.png" />
+         </image>
+      </ImageView>
+      <VBox layoutX="557.0" layoutY="176.0" prefHeight="399.0" prefWidth="198.0">
+         <children>
+            <Label prefHeight="68.0" prefWidth="198.0" text="MotherBoard Type:" textAlignment="RIGHT">
+               <font>
+                  <Font name="Franklin Gothic Demi Cond" size="24.0" />
+               </font>
+            </Label>
+            <Label prefHeight="68.0" prefWidth="209.0" text="Operating System:" textAlignment="RIGHT">
+               <font>
+                  <Font name="Franklin Gothic Demi Cond" size="24.0" />
+               </font>
+            </Label>
+            <Label prefHeight="68.0" prefWidth="223.0" text="Geographic Location:" textAlignment="RIGHT">
+               <font>
+                  <Font name="Franklin Gothic Demi Cond" size="24.0" />
+               </font>
+            </Label>
+            <Label prefHeight="68.0" prefWidth="180.0" text="Bit Version:" textAlignment="RIGHT">
+               <font>
+                  <Font name="Franklin Gothic Demi Cond" size="24.0" />
+               </font>
+            </Label>
+            <Label prefHeight="68.0" prefWidth="132.0" text="IP Address:" textAlignment="RIGHT">
+               <font>
+                  <Font name="Franklin Gothic Demi Cond" size="24.0" />
+               </font>
+            </Label>
+            <Label prefHeight="68.0" prefWidth="138.0" text="CPU Type:" textAlignment="RIGHT">
+               <font>
+                  <Font name="Franklin Gothic Demi Cond" size="24.0" />
+               </font>
+            </Label>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="50.0" />
+         </padding>
+      </VBox>
+      <VBox layoutX="751.0" layoutY="162.0" prefHeight="410.0" prefWidth="240.0" spacing="22.0">
+         <children>
+            <AnchorPane>
+               <children>
+                  <ChoiceBox fx:id="Brand_Motherboard" prefHeight="39.0" prefWidth="102.0" />
+                  <TextField fx:id="MotherBoard_ModelNumber" layoutX="102.0" prefHeight="39.0" prefWidth="138.0" />
+               </children>
+            </AnchorPane>
+            <ChoiceBox fx:id="Operating_System_ChoiceBox" prefHeight="39.0" prefWidth="102.0" />
+            <TextField fx:id="Geographic_Location" prefHeight="39.0" prefWidth="138.0" />
+            <ChoiceBox fx:id="Bit_Version_Choicebox" prefHeight="39.0" prefWidth="102.0" />
+            <TextField fx:id="IP_Address" prefHeight="39.0" prefWidth="139.0" />
+            <AnchorPane>
+               <children>
+                  <TextField fx:id="CPU_Model" layoutX="102.0" prefHeight="39.0" prefWidth="139.0" />
+                  <ChoiceBox fx:id="CPU_Brand" prefHeight="39.0" prefWidth="102.0" />
+               </children>
+            </AnchorPane>
+         </children>
+         <padding>
+            <Insets bottom="50.0" top="20.0" />
+         </padding>
+      </VBox>
+      <Label layoutX="619.0" layoutY="66.0" prefHeight="90.0" prefWidth="350.0" text="Computer Specifications" textAlignment="RIGHT">
+         <font>
+            <Font name="Franklin Gothic Demi Cond" size="36.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="101.0" fitWidth="117.0" layoutX="527.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons8-clipboard-128.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="33.0" layoutX="530.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons8-checkmark-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="33.0" layoutX="530.0" layoutY="249.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons8-checkmark-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="33.0" layoutX="530.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons8-checkmark-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="33.0" layoutX="530.0" layoutY="361.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons8-checkmark-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="33.0" layoutX="530.0" layoutY="422.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons8-checkmark-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="33.0" layoutX="530.0" layoutY="482.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons8-checkmark-64.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="596.0" layoutY="572.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="338.0" stylesheets="@Button_Effect_MainGui.css" text="Add To Database">
+         <font>
+            <Font name="Franklin Gothic Demi Cond" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="596.0" layoutY="636.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="338.0" stylesheets="@Button_Effect_MainGui.css" text="Navigate To Network Map">
+         <font>
+            <Font name="Franklin Gothic Demi Cond" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="596.0" layoutY="701.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="338.0" stylesheets="@Button_Effect_MainGui.css" text="Show Available Objects">
+         <font>
+            <Font name="Franklin Gothic Demi Cond" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
