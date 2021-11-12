@@ -19,13 +19,13 @@ public class Computer_Object_Main_GUI_Controller {
     private Button Add_To_Database_BTN;
 
     @FXML
-    private ChoiceBox<?> Bit_Version_DropDown;
+    private ChoiceBox<String> Bit_Version_DropDown;
 
     @FXML
-    private ChoiceBox<?> Brand_Motherboard_DropDown;
+    private ChoiceBox<String> Brand_Motherboard_DropDown;
 
     @FXML
-    private ChoiceBox<?> CPU_Brand_DropMenu;
+    private ChoiceBox<String> CPU_Brand_DropMenu;
 
     @FXML
     private TextField CPU_Model_TextBox;
@@ -40,7 +40,7 @@ public class Computer_Object_Main_GUI_Controller {
     private TextField MotherBoard_ModelNumber_TextBox;
 
     @FXML
-    private ChoiceBox<?> Operating_System_DropDown;
+    private ChoiceBox<String> Operating_System_DropDown;
 
     @FXML
     private Button Show_Available_Object_BTN;
@@ -48,4 +48,22 @@ public class Computer_Object_Main_GUI_Controller {
     @FXML
     private Button Show_Network_Map_BTN;
 
+    @FXML
+    public void initialize()
+    {
+        //Add Items to their choice boxes
+        Brand_Motherboard_DropDown.getItems().add("1. MSI(Micro-Star International");
+        Brand_Motherboard_DropDown.getItems().add("2. ASUS");
+        Brand_Motherboard_DropDown.getItems().add("3. Biostar");
+        Brand_Motherboard_DropDown.getItems().add("4. EVGA Corporation");
+        Brand_Motherboard_DropDown.getItems().add("5. Gigabyte Technology");
+        Brand_Motherboard_DropDown.getItems().add("6. Intel");
+        Brand_Motherboard_DropDown.getItems().add("7. ASRock");
+        
+        
+    
+    }
+       
+
+    
 }
