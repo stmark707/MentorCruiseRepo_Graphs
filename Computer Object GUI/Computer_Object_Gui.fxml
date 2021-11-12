@@ -16,7 +16,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="804.0" prefWidth="1041.0" style="-fx-background-color: #6495ED;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="804.0" prefWidth="1041.0" style="-fx-background-color: #6495ED;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="GAINSBORO" height="712.0" layoutX="46.0" layoutY="54.0" stroke="TRANSPARENT" strokeType="INSIDE" width="451.0">
          <effect>
@@ -124,18 +124,18 @@
          <children>
             <AnchorPane>
                <children>
-                  <ChoiceBox fx:id="Brand_Motherboard" prefHeight="39.0" prefWidth="102.0" />
-                  <TextField fx:id="MotherBoard_ModelNumber" layoutX="102.0" prefHeight="39.0" prefWidth="138.0" />
+                  <ChoiceBox fx:id="Brand_Motherboard_DropDown" prefHeight="39.0" prefWidth="102.0" />
+                  <TextField fx:id="MotherBoard_ModelNumber_TextBox" layoutX="102.0" prefHeight="39.0" prefWidth="138.0" />
                </children>
             </AnchorPane>
-            <ChoiceBox fx:id="Operating_System_ChoiceBox" prefHeight="39.0" prefWidth="102.0" />
-            <TextField fx:id="Geographic_Location" prefHeight="39.0" prefWidth="138.0" />
-            <ChoiceBox fx:id="Bit_Version_Choicebox" prefHeight="39.0" prefWidth="102.0" />
-            <TextField fx:id="IP_Address" prefHeight="39.0" prefWidth="139.0" />
+            <ChoiceBox fx:id="Operating_System_DropDown" prefHeight="39.0" prefWidth="102.0" />
+            <TextField fx:id="Geographic_Location_TextBox" prefHeight="39.0" prefWidth="138.0" />
+            <ChoiceBox fx:id="Bit_Version_DropDown" prefHeight="39.0" prefWidth="102.0" />
+            <TextField fx:id="IP_Address_TextBox" prefHeight="39.0" prefWidth="139.0" />
             <AnchorPane>
                <children>
-                  <TextField fx:id="CPU_Model" layoutX="102.0" prefHeight="39.0" prefWidth="139.0" />
-                  <ChoiceBox fx:id="CPU_Brand" prefHeight="39.0" prefWidth="102.0" />
+                  <TextField fx:id="CPU_Model_TextBox" layoutX="102.0" prefHeight="39.0" prefWidth="139.0" />
+                  <ChoiceBox fx:id="CPU_Brand_DropMenu" prefHeight="39.0" prefWidth="102.0" />
                </children>
             </AnchorPane>
          </children>
@@ -183,17 +183,17 @@
             <Image url="@icons8-checkmark-64.png" />
          </image>
       </ImageView>
-      <Button layoutX="596.0" layoutY="572.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="338.0" stylesheets="@Button_Effect_MainGui.css" text="Add To Database">
+      <Button fx:id="Add_To_Database_BTN" layoutX="596.0" layoutY="572.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="338.0" stylesheets="@Button_Effect_MainGui.css" text="Add To Database">
          <font>
             <Font name="Franklin Gothic Demi Cond" size="18.0" />
          </font>
       </Button>
-      <Button layoutX="596.0" layoutY="636.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="338.0" stylesheets="@Button_Effect_MainGui.css" text="Navigate To Network Map">
+      <Button fx:id="Show_Network_Map_BTN" layoutX="596.0" layoutY="636.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="338.0" stylesheets="@Button_Effect_MainGui.css" text="Navigate To Network Map">
          <font>
             <Font name="Franklin Gothic Demi Cond" size="18.0" />
          </font>
       </Button>
-      <Button layoutX="596.0" layoutY="701.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="338.0" stylesheets="@Button_Effect_MainGui.css" text="Show Available Objects">
+      <Button fx:id="Show_Available_Object_BTN" layoutX="596.0" layoutY="701.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="338.0" stylesheets="@Button_Effect_MainGui.css" text="Show Available Objects">
          <font>
             <Font name="Franklin Gothic Demi Cond" size="18.0" />
          </font>
