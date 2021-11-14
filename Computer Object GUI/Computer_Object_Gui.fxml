@@ -16,8 +16,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="804.0" prefWidth="1041.0" style="-fx-background-color: #6495ED;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="804.0" prefWidth="1041.0" style="-fx-background-color: #6495ED;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="GAINSBORO" height="712.0" layoutX="46.0" layoutY="54.0" stroke="TRANSPARENT" strokeType="INSIDE" width="451.0">
          <effect>
@@ -199,14 +198,19 @@
             <Font name="Franklin Gothic Demi Cond" size="18.0" />
          </font>
       </Button>
-      <ImageView fitHeight="39.0" fitWidth="39.0" layoutX="550.0" layoutY="578.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="59.0" fitWidth="61.0" layoutX="538.0" layoutY="638.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icons8-networking-manager-96.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="49.0" fitWidth="58.0" layoutX="547.0" layoutY="578.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@icons8-database-64.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="58.0" fitWidth="70.0" layoutX="539.0" layoutY="638.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="49.0" fitWidth="52.0" layoutX="544.0" layoutY="706.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@icons8-computer-networks-64.png" />
+            <Image url="@icons8-computer-80.png" />
          </image>
       </ImageView>
    </children>
