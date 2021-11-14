@@ -51,6 +51,7 @@ public class Computer_Object_Main_GUI_Controller {
     @FXML
     public void initialize()
     {
+        
         //Add Items to their choice boxes
         Brand_Motherboard_DropDown.getItems().add("1. MSI(Micro-Star International");
         Brand_Motherboard_DropDown.getItems().add("2. ASUS");
@@ -60,10 +61,10 @@ public class Computer_Object_Main_GUI_Controller {
         Brand_Motherboard_DropDown.getItems().add("6. Intel");
         Brand_Motherboard_DropDown.getItems().add("7. ASRock");
         
-        
+     
+
     
     }
-       
-
+      
     
 }

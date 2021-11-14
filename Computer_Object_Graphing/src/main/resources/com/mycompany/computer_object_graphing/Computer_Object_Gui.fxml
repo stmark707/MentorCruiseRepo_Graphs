@@ -16,7 +16,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="804.0" prefWidth="1041.0" style="-fx-background-color: #6495ED;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="804.0" prefWidth="1041.0" style="-fx-background-color: #6495ED;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.computer_object_graphing.Computer_Object_Main_GUI_Controller">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="GAINSBORO" height="712.0" layoutX="46.0" layoutY="54.0" stroke="TRANSPARENT" strokeType="INSIDE" width="451.0">
          <effect>
@@ -120,14 +120,8 @@
             <Insets bottom="50.0" />
          </padding>
       </VBox>
-      <VBox layoutX="751.0" layoutY="162.0" prefHeight="410.0" prefWidth="240.0" spacing="22.0">
+      <VBox layoutX="751.0" layoutY="229.0" prefHeight="343.0" prefWidth="241.0" spacing="22.0">
          <children>
-            <AnchorPane>
-               <children>
-                  <ChoiceBox fx:id="Brand_Motherboard_DropDown" prefHeight="39.0" prefWidth="102.0" />
-                  <TextField fx:id="MotherBoard_ModelNumber_TextBox" layoutX="102.0" prefHeight="39.0" prefWidth="138.0" />
-               </children>
-            </AnchorPane>
             <ChoiceBox fx:id="Operating_System_DropDown" prefHeight="39.0" prefWidth="102.0" />
             <TextField fx:id="Geographic_Location_TextBox" prefHeight="39.0" prefWidth="138.0" />
             <ChoiceBox fx:id="Bit_Version_DropDown" prefHeight="39.0" prefWidth="102.0" />
@@ -140,7 +134,7 @@
             </AnchorPane>
          </children>
          <padding>
-            <Insets bottom="50.0" top="20.0" />
+            <Insets bottom="50.0" top="16.0" />
          </padding>
       </VBox>
       <Label layoutX="619.0" layoutY="66.0" prefHeight="90.0" prefWidth="350.0" text="Computer Specifications" textAlignment="RIGHT">
@@ -213,5 +207,7 @@
             <Image url="@icons8-computer-80.png" />
          </image>
       </ImageView>
+      <ChoiceBox fx:id="Brand_Motherboard_DropDown" layoutX="751.0" layoutY="185.0" prefHeight="39.0" prefWidth="102.0" />
+      <TextField fx:id="MotherBoard_ModelNumber_TextBox" layoutX="853.0" layoutY="185.0" prefHeight="39.0" prefWidth="138.0" />
    </children>
 </Pane>
