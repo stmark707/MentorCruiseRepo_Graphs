@@ -1,0 +1,13 @@
+.choice-box .context-menu
+{
+	-fx-font-size: 12pt;
+	-fx-font-family: "Franklin Gothic Demi";
+	-fx-background-color: gainsboro;
+	-fx-mark-color: cornflowerblue;
+}
+
+.choice-box
+{
+    -fx-font-size: 12pt;
+    -fx-font-family: "Franklin Gothic Demi";
+}

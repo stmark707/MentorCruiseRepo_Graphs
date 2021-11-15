@@ -8,13 +8,26 @@ package com.mycompany.computer_object_graphing;
  *
  * @author nstmark
  */
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.TextField;
 
 public class Computer_Object_Main_GUI_Controller {
+    
+    String Motherboard_Brands[] = {"-Select One-", "1. MSI(Micro-Star International", "2. ASUS", "3. Biostar",
+        "4. EVGA Corporation", "5. Gigabyte Technology", "6. Intel", "7. ASRock"};
+    
+    String CPU_Selections[] = {"-Select One-", "Intel", "AMD"};
+    
+    String Operating_System_Distro[] = {"-Select One-", "Microsoft Windows", "Fedora", "Centos", "Ubuntu",
+        "Kali Linux", "OpenSuSe"};
+    
+    String Bit_Version_Selection[] = {"-Select One-", "64-bit", "32-bit"};
 
+    
     @FXML
     private Button Add_To_Database_BTN;
 
@@ -51,18 +64,13 @@ public class Computer_Object_Main_GUI_Controller {
     @FXML
     public void initialize()
     {
+        //Default Comment in Choice box
+        Brand_Motherboard_DropDown.setValue(Motherboard_Brands[0]);
         
         //Add Items to their choice boxes
-        Brand_Motherboard_DropDown.getItems().add("1. MSI(Micro-Star International");
-        Brand_Motherboard_DropDown.getItems().add("2. ASUS");
-        Brand_Motherboard_DropDown.getItems().add("3. Biostar");
-        Brand_Motherboard_DropDown.getItems().add("4. EVGA Corporation");
-        Brand_Motherboard_DropDown.getItems().add("5. Gigabyte Technology");
-        Brand_Motherboard_DropDown.getItems().add("6. Intel");
-        Brand_Motherboard_DropDown.getItems().add("7. ASRock");
-        
+        Brand_Motherboard_DropDown.setItems(FXCollections.observableArrayList(Motherboard_Brands));
      
-
+        
     
     }
       

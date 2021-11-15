@@ -80,36 +80,36 @@
             <Image url="@icons8-move-node-up-240.png" />
          </image>
       </ImageView>
-      <VBox layoutX="557.0" layoutY="176.0" prefHeight="399.0" prefWidth="198.0">
+      <VBox layoutX="557.0" layoutY="176.0" prefHeight="399.0" prefWidth="183.0">
          <children>
             <Label prefHeight="68.0" prefWidth="198.0" text="MotherBoard Type:" textAlignment="RIGHT">
                <font>
-                  <Font name="Franklin Gothic Demi Cond" size="24.0" />
+                  <Font name="Franklin Gothic Demi Cond" size="22.0" />
                </font>
             </Label>
             <Label prefHeight="68.0" prefWidth="209.0" text="Operating System:" textAlignment="RIGHT">
                <font>
-                  <Font name="Franklin Gothic Demi Cond" size="24.0" />
+                  <Font name="Franklin Gothic Demi Cond" size="22.0" />
                </font>
             </Label>
             <Label prefHeight="68.0" prefWidth="223.0" text="Geographic Location:" textAlignment="RIGHT">
                <font>
-                  <Font name="Franklin Gothic Demi Cond" size="24.0" />
+                  <Font name="Franklin Gothic Demi Cond" size="22.0" />
                </font>
             </Label>
             <Label prefHeight="68.0" prefWidth="180.0" text="Bit Version:" textAlignment="RIGHT">
                <font>
-                  <Font name="Franklin Gothic Demi Cond" size="24.0" />
+                  <Font name="Franklin Gothic Demi Cond" size="22.0" />
                </font>
             </Label>
             <Label prefHeight="68.0" prefWidth="132.0" text="IP Address:" textAlignment="RIGHT">
                <font>
-                  <Font name="Franklin Gothic Demi Cond" size="24.0" />
+                  <Font name="Franklin Gothic Demi Cond" size="22.0" />
                </font>
             </Label>
             <Label prefHeight="68.0" prefWidth="138.0" text="CPU Type:" textAlignment="RIGHT">
                <font>
-                  <Font name="Franklin Gothic Demi Cond" size="24.0" />
+                  <Font name="Franklin Gothic Demi Cond" size="22.0" />
                </font>
             </Label>
          </children>
@@ -120,21 +120,22 @@
             <Insets bottom="50.0" />
          </padding>
       </VBox>
-      <VBox layoutX="751.0" layoutY="229.0" prefHeight="343.0" prefWidth="241.0" spacing="22.0">
+      <VBox layoutX="735.0" layoutY="228.0" prefHeight="252.0" prefWidth="255.0" spacing="20.0">
          <children>
-            <ChoiceBox fx:id="Operating_System_DropDown" prefHeight="39.0" prefWidth="102.0" />
-            <TextField fx:id="Geographic_Location_TextBox" prefHeight="39.0" prefWidth="138.0" />
-            <ChoiceBox fx:id="Bit_Version_DropDown" prefHeight="39.0" prefWidth="102.0" />
-            <TextField fx:id="IP_Address_TextBox" prefHeight="39.0" prefWidth="139.0" />
-            <AnchorPane>
-               <children>
-                  <TextField fx:id="CPU_Model_TextBox" layoutX="102.0" prefHeight="39.0" prefWidth="139.0" />
-                  <ChoiceBox fx:id="CPU_Brand_DropMenu" prefHeight="39.0" prefWidth="102.0" />
-               </children>
-            </AnchorPane>
+            <ChoiceBox fx:id="Operating_System_DropDown" prefHeight="39.0" prefWidth="135.0" stylesheets="@ChoiceBox_Effects.css" />
+            <TextField fx:id="Geographic_Location_TextBox" prefHeight="39.0" prefWidth="255.0" promptText="Geographic Location">
+               <font>
+                  <Font name="Franklin Gothic Demi Cond" size="12.0" />
+               </font></TextField>
+            <ChoiceBox fx:id="Bit_Version_DropDown" prefHeight="39.0" prefWidth="135.0" stylesheets="@ChoiceBox_Effects.css" />
+            <TextField fx:id="IP_Address_TextBox" prefHeight="39.0" prefWidth="139.0" promptText="IP Address">
+               <font>
+                  <Font name="Franklin Gothic Demi Cond" size="12.0" />
+               </font></TextField>
+            <AnchorPane prefHeight="0.0" prefWidth="241.0" />
          </children>
          <padding>
-            <Insets bottom="50.0" top="16.0" />
+            <Insets bottom="-3.0" top="13.0" />
          </padding>
       </VBox>
       <Label layoutX="619.0" layoutY="66.0" prefHeight="90.0" prefWidth="350.0" text="Computer Specifications" textAlignment="RIGHT">
@@ -207,7 +208,15 @@
             <Image url="@icons8-computer-80.png" />
          </image>
       </ImageView>
-      <ChoiceBox fx:id="Brand_Motherboard_DropDown" layoutX="751.0" layoutY="185.0" prefHeight="39.0" prefWidth="102.0" />
-      <TextField fx:id="MotherBoard_ModelNumber_TextBox" layoutX="853.0" layoutY="185.0" prefHeight="39.0" prefWidth="138.0" />
+      <ChoiceBox fx:id="Brand_Motherboard_DropDown" layoutX="736.0" layoutY="185.0" prefHeight="39.0" prefWidth="135.0" stylesheets="@ChoiceBox_Effects.css" />
+      <TextField fx:id="MotherBoard_ModelNumber_TextBox" layoutX="871.0" layoutY="185.0" prefHeight="39.0" prefWidth="120.0" promptText="Model Number">
+         <font>
+            <Font name="Franklin Gothic Demi Cond" size="12.0" />
+         </font></TextField>
+      <ChoiceBox fx:id="CPU_Brand_DropMenu" layoutX="733.0" layoutY="478.0" prefHeight="39.0" prefWidth="135.0" stylesheets="@ChoiceBox_Effects.css" />
+      <TextField fx:id="CPU_Model_TextBox" layoutX="868.0" layoutY="478.0" prefHeight="39.0" prefWidth="120.0" promptText="Model Number">
+         <font>
+            <Font name="Franklin Gothic Demi Cond" size="12.0" />
+         </font></TextField>
    </children>
 </Pane>
