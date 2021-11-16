@@ -66,10 +66,17 @@ public class Computer_Object_Main_GUI_Controller {
     {
         //Default Comment in Choice box
         Brand_Motherboard_DropDown.setValue(Motherboard_Brands[0]);
-        
+        Bit_Version_DropDown.setValue(Bit_Version_Selection[0]);
+        CPU_Brand_DropMenu.setValue(CPU_Selections[0]);
+        Operating_System_DropDown.setValue(Operating_System_Distro[0]);
+                
+                
         //Add Items to their choice boxes
         Brand_Motherboard_DropDown.setItems(FXCollections.observableArrayList(Motherboard_Brands));
-     
+        Bit_Version_DropDown.setItems(FXCollections.observableArrayList(Bit_Version_Selection));
+        CPU_Brand_DropMenu.setItems(FXCollections.observableArrayList(CPU_Selections));
+        Operating_System_DropDown.setItems(FXCollections.observableArrayList(Operating_System_Distro));
+        
         
     
     }
